@@ -1,0 +1,182 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+body{
+    font-family: "Roboto Slab", serif;
+    
+}
+.clear-fix{
+    clear: both;
+}
+/* **********************Home************************ */
+#Home .nav-bar{
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.518);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+#Home .nav-bar .logo {
+    float: left;
+}
+#Home .nav-bar .links {
+    float: right;
+}
+#Home .nav-bar .logo img{
+    width: 70px;
+}
+#Home .nav-bar .links ul li{
+    display: inline-block;
+}
+#Home .nav-bar .links ul li a{
+    padding: 50px;
+    color: #fff;
+}
+#Home{
+    background-image: url('images/header.png');
+    background-size: cover;
+    background-position: center center;
+    height: 100vh;
+}
+#Home .caption{
+    text-align: center;
+    color: white;
+    padding-top: 85px;
+}
+#Home .caption h1{
+    font-size: 80px;
+    padding-block: 10px ;
+}
+#Home .caption p{
+    padding-block: 10px ;
+}
+#Home .caption  .btn-1,#Home .caption .btn-2{
+    border-radius: 50px;
+    padding: 10px 20px;
+    border: 1px solid white;
+    cursor: pointer;
+    
+}
+#Home .caption  .btn-1{
+    background-color: #bde0fe;
+}
+#Home .caption .btn-2{
+    background-color: #fff;
+}
+
+/* **********************Home************************ */
+
+/* **********************About************************ */
+#About{
+    margin: 60px;
+}
+#About .about-img {
+    width: 50%;
+    float: left;
+
+}
+#About .about-img img {
+    width: 90%;
+   
+
+}
+#About .about-info {
+    width: 50%;
+    float: left;
+
+}
+#About .about-info span {
+    font-size: 30px;
+    color: #a2d2ff;
+
+}
+#About .about-info p {
+    padding-block: 30px;
+
+}
+#About .about-info button {
+    padding:  10px 20px;
+    border: 1px solid white;
+    border-radius: 50px;
+    background-color: #f5cac3;
+    cursor: pointer;
+}
+
+/* **********************About************************ */
+
+/* **********************Content************************ */
+
+#content{
+    background-image: url('images/blog-3.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 500px;
+    text-align: center;
+}
+
+#content p{
+    font-family:"Edu VIC WA NT Beginner", cursive;
+    font-size: 100px;
+    color: #f7ede2;
+    padding-top: 90px;
+}
+
+/* **********************Content************************ */
+/* **********************Blog************************ */
+#Blog .container{
+  margin: 30px;
+    text-align: center;
+}
+#Blog .container h2 span{
+    font-size: 30px;
+    color: #a2d2ff;
+
+}
+#Blog .container h2{
+    
+    padding-block: 30px;
+}
+#Blog .container .blog{
+   width:  33.333%;
+    float: left;
+}
+#Blog .container .blog img{
+    width:  90%;
+    
+ }
+/* **********************Blog************************ */
+/* **********************Footer************************ */
+
+#Footer .container{
+    margin: auto;
+    width: 40%;
+    
+}
+#Footer {
+   height: 100px; 
+   text-align: center;
+   background-color: #a8dadc;
+}
+#Footer .container i{
+   cursor: pointer;
+   font-size: 20px;
+   padding: 10px ;
+   margin: 10px;
+   transition: 1s color ease,1s border ease;
+   border: 2px solid black;
+   border-radius: 50%;
+}
+
+#Footer i:hover{
+    color: white;
+    border: 2px solid white;
+
+}
+
+/* **********************Footer************************ */
